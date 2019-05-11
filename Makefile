@@ -24,6 +24,7 @@ include $(SRCS:.c=.d)
 tests: $(BIN)
 	./$(BIN)
 
+
 .PHONY: clean
 clean:
 	-${RM} ${BIN} ${OBJS} $(SRCS:.c=.d)
