@@ -1,4 +1,8 @@
 language: c
 
 script: 
-  - make clean tests
+  - make
+  -./hello
+  - make clean
+  
+  
