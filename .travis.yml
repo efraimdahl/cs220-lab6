@@ -3,6 +3,4 @@ language: c
 script: 
   - make
   -./hello
-  - make clean
-  
   
